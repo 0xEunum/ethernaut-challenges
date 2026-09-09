@@ -1,66 +1,56 @@
-## Foundry
+# 🚩 Ethernaut Challenges Solutions & Writeups
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Solutions and writeups for [OpenZeppelin's Ethernaut](https://ethernaut.openzeppelin.com/) smart contract security challenges, implemented and tested using **Foundry**.
 
-Foundry consists of:
+Each completed challenge is documented with the target smart contract, an in-depth writeup explaining the vulnerability and exploit mechanics, and verifiable on-chain proof of completion.
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## 📊 Completed Challenges
 
-## Documentation
+| # | Challenge | Status | Writeup | Instance Address | Proof (Sepolia Tx) |
+|---|-----------|:------:|:-------:|:----------------:|:------------------:|
+| 01 | [Hello Ethernaut](https://ethernaut.openzeppelin.com/level/0) | Completed ✅ | [Writeup](src/01-hello-ethernaut/README.md) | [`0xc366...2bEd`](https://sepolia.etherscan.io/address/0xc3662ddbD8cFAbe3a557311EcF489CF0cD5E2bEd) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0x9433f397edb532f1b9603dac72ef73b4e1f8371ee7ad747484ba9c5cec0b8103) |
 
-https://book.getfoundry.sh/
+---
 
-## Usage
+## 📁 Repository Structure
+
+```text
+├── src/
+│   └── 01-hello-ethernaut/
+│       ├── HelloEthernaut.sol  # Challenge contract
+│       └── README.md           # Detailed writeup & solution
+├── script/                     # Foundry deployment & attack scripts
+├── test/                       # Foundry tests simulating exploits locally
+└── foundry.toml                # Foundry configuration
+```
+
+---
+
+## 🛠️ Getting Started with Foundry
+
+### Prerequisites
+
+Ensure you have [Foundry](https://book.getfoundry.sh/getting-started/installation) installed:
+
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+```
 
 ### Build
 
-```shell
-$ forge build
+```bash
+forge build
 ```
 
 ### Test
 
-```shell
-$ forge test
+```bash
+forge test -vvvv
 ```
 
-### Format
+---
 
-```shell
-$ forge fmt
-```
+## 📜 Disclaimer
 
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+These solutions and writeups are intended solely for educational purposes and learning EVM / smart contract security concepts.
