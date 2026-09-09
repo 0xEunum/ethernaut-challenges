@@ -8,7 +8,7 @@ Each completed challenge is documented with the target smart contract, an in-dep
 
 | # | Challenge | Status | Writeup | Instance Address | Proof (Sepolia Tx) |
 |---|-----------|:------:|:-------:|:----------------:|:------------------:|
-| 01 | [Hello Ethernaut](https://ethernaut.openzeppelin.com/level/0) | Completed ✅ | [Writeup](src/01-hello-ethernaut/README.md) | [`0xc366...2bEd`](https://sepolia.etherscan.io/address/0xc3662ddbD8cFAbe3a557311EcF489CF0cD5E2bEd) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0x9433f397edb532f1b9603dac72ef73b4e1f8371ee7ad747484ba9c5cec0b8103) |
+| 00 | [Hello Ethernaut](https://ethernaut.openzeppelin.com/level/0) | Completed ✅ | [Writeup](src/00-hello-ethernaut/README.md) | [`0xc366...2bEd`](https://sepolia.etherscan.io/address/0xc3662ddbD8cFAbe3a557311EcF489CF0cD5E2bEd) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0x9433f397edb532f1b9603dac72ef73b4e1f8371ee7ad747484ba9c5cec0b8103) |
 
 ---
 
@@ -16,7 +16,7 @@ Each completed challenge is documented with the target smart contract, an in-dep
 
 ```text
 ├── src/
-│   └── 01-hello-ethernaut/
+│   └── 00-hello-ethernaut/
 │       ├── HelloEthernaut.sol  # Challenge contract
 │       └── README.md           # Detailed writeup & solution
 ├── script/                     # Foundry deployment & attack scripts

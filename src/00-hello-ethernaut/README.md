@@ -1,4 +1,4 @@
-# 01 - Hello Ethernaut
+# 00 - Hello Ethernaut
 
 ## Overview
 
@@ -23,7 +23,7 @@ To complete this challenge:
 
 ## Contract Analysis
 
-The contract source code is located at [`src/01-hello-ethernaut/HelloEthernaut.sol`](./HelloEthernaut.sol).
+The contract source code is located at [`src/00-hello-ethernaut/HelloEthernaut.sol`](./HelloEthernaut.sol).
 
 ```solidity
 // SPDX-License-Identifier: MIT
