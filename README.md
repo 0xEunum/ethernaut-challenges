@@ -2,6 +2,9 @@
 
 Solutions and writeups for [OpenZeppelin's Ethernaut](https://ethernaut.openzeppelin.com/) smart contract security challenges, implemented and tested using **Foundry**.
 
+- **Player Address:** [`0xf511E1029dE5295f6D0dE05f4431DdA203e63607`](https://sepolia.etherscan.io/address/0xf511E1029dE5295f6D0dE05f4431DdA203e63607)
+- **Network:** Sepolia Testnet
+
 Each completed challenge is documented with the target smart contract, an in-depth writeup explaining the vulnerability and exploit mechanics, and verifiable on-chain proof of completion.
 
 ## 📊 Completed Challenges
@@ -10,6 +13,7 @@ Each completed challenge is documented with the target smart contract, an in-dep
 |---|-----------|:------:|:-------:|:----------------:|:------------------:|
 | 00 | [Hello Ethernaut](https://ethernaut.openzeppelin.com/level/0) | Completed ✅ | [Writeup](src/00-hello-ethernaut/README.md) | [`0xc366...2bEd`](https://sepolia.etherscan.io/address/0xc3662ddbD8cFAbe3a557311EcF489CF0cD5E2bEd) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0x9433f397edb532f1b9603dac72ef73b4e1f8371ee7ad747484ba9c5cec0b8103) |
 | 01 | [Fallback](https://ethernaut.openzeppelin.com/level/1) | Completed ✅ | [Writeup](src/01-fallback/README.md) | [`0xAcF3...3979`](https://sepolia.etherscan.io/address/0xAcF384d2700663050622313970Ef853e99A43979) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0xf425febbc049817be1c7ac5ec53ea004f8ac87407611f0ff50643eeb0c169650) |
+| 02 | [Fallout](https://ethernaut.openzeppelin.com/level/2) | Completed ✅ | [Writeup](src/02-fallout/README.md) | [`0x3cdd...3b31`](https://sepolia.etherscan.io/address/0x3cdd4575f0ff0948c6cdcc7ffcb573e832733b31) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0xbdd20cd7b59cd49b05c21da737caf1eab1d8bd4cd377f53943505146890d6cc4) |
 
 ---
 
@@ -20,9 +24,11 @@ Each completed challenge is documented with the target smart contract, an in-dep
 │   ├── 00-hello-ethernaut/
 │   │   ├── HelloEthernaut.sol  # Challenge contract
 │   │   └── README.md           # Detailed writeup & solution
-│   └── 01-fallback/
-│       ├── Fallback.sol        # Challenge contract
-│       └── README.md           # Detailed writeup & solution
+│   ├── 01-fallback/
+│   │   ├── Fallback.sol        # Challenge contract
+│   │   └── README.md           # Detailed writeup & solution
+│   ├── ...                     # Subsequent challenges follow the same pattern
+│   └── helpers/                # Shared helper libraries (e.g., SafeMath)
 ├── script/                     # Foundry deployment & attack scripts
 ├── test/                       # Foundry tests simulating exploits locally
 └── foundry.toml                # Foundry configuration
