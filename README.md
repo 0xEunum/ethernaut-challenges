@@ -17,6 +17,7 @@ Each completed challenge is documented with the target smart contract, an in-dep
 | 03 | [Coin Flip](https://ethernaut.openzeppelin.com/level/3) | Completed ✅ | [Writeup](src/03-coin-flip/README.md) | [`0xDDd8...bd8A`](https://sepolia.etherscan.io/address/0xDDd84EA1C0e72dca7Bc6146FE2e33fA62dC7bd8A) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0x42a159f442411137da8d2d6105726e7b438447f2fe0d2d8fd385c0af41d062da) |
 | 04 | [Telephone](https://ethernaut.openzeppelin.com/level/4) | Completed ✅ | [Writeup](src/04-Telephone/README.md) | [`0x1cac...f11f`](https://sepolia.etherscan.io/address/0x1cac52d22f9fe803fed16f1cc513dec729b3f11f) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0xf23b4902060f55910c8591938d1707e328a8795ebb68c25ab8ec3ad49db43ddc) |
 | 05 | [Token](https://ethernaut.openzeppelin.com/level/5) | Completed ✅ | [Writeup](src/05-Token/README.md) | [`0x804c...caFC`](https://sepolia.etherscan.io/address/0x804ceF2ba55E1219D6F4D9c34e648A195a86caFC) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0xb78ae9d6452149c6a5b148d6cbdd4da35d7a0cc73ce705b659a844a7331f2ce5) |
+| 06 | [Delegation](https://ethernaut.openzeppelin.com/level/6) | Completed ✅ | [Writeup](src/06-Delegation/README.md) | [`0x836a...5750`](https://sepolia.etherscan.io/address/0x836a094abf84924E15154b04de5845Fd2ecd5750) | [Sepolia Tx](https://sepolia.etherscan.io/tx/0x1b12ec4f45a13f1c99de631fb91820ea084a16757ae7e85abb45d7dee49454a0) |
 
 ---
 
